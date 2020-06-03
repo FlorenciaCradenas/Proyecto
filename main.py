@@ -1,3 +1,4 @@
+import modules.search as pt
 map = {
     'A': ['N', 'S', 'M'],
     'B': ['Z','X','J','V'],
@@ -20,7 +21,9 @@ map = {
     'Y': ['F','J'],
     'Z': ['G','X','B'],
 }
-# def amplitude(map, inicio, destino) ->	list:
-#     arbol(inicio)
-#     recorrido(inicio, None)
-#     while not Vacio(arbol)
+# inicio = input('Dame la ciudad de origen')
+# destino = input('Dame la ciudad de destino')
+p = pt.busqueda(map, 'X', 'V')
+print(p)
+# h = pt.amplitud(map, 'X', 'V')
+# print(h)
