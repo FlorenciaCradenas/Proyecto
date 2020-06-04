@@ -1,4 +1,4 @@
-from collections import deque
+import queue
 import typing as ty
 
 map = {
@@ -27,19 +27,39 @@ map = {
 arbol = []
 recorrido = []
 
-def busqueda(map, inicio, destino)-> ty.List[float]:
+
+def busqueda(map, inicio, destino) -> ty.List[float]:
     arbol.append(inicio)
-    recorrido.append(inicio)
-    if inicio == destino:
-        return destino
     while arbol:
         ciudad = arbol.pop()
-        if ciudad not in recorrido:
+        if inicio == destino:
+            return destino
+        if ciudad not in recorrido and ciudad != inicio:
             recorrido.append(ciudad)
-            return busqueda(map, inicio, ciudad)
+            print(recorrido)
         for key in map[ciudad]:
+            print(key)
             if key not in recorrido:
-                arbol.append(key)
                 recorrido.append(key)
-    return recorrido
+                print(recorrido)
 
+
+
+def ruta(st_1: list) -> list:
+    lst = []
+    lst.append(busqueda(map, inicio, destino))
+    print(lst)
+#
+# def invert(lst_1: list) -> list:
+#     if not lst_1:
+#         return lst_1
+#     else:
+#         return [lst_1[-1]] + invert(lst_1[:-1])
+#
+#
+# def result_function(n: int) -> ty.List[float]:
+#     lst = []
+#     for n in range(0, n + 1):
+#         lst.append(function_math(n))
+#         print(lst[n], end=' ')
+#     return lst
