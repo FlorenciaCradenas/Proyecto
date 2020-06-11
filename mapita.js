@@ -144,11 +144,62 @@ function pintaMarker(item) {
 
 // create a red polyline from an array of LatLng points
 var ruta1 = [
-	locations.xalapa.coordenadas,
+	locations.agua.coordenadas,
+	locations.coatzacoalcos.coordenadas,
+	locations.andres.coordenadas,
+	locations.alvarado.coordenadas,
+	locations.boca.coordenadas,
 	locations.zempoala.coordenadas,
 	locations.vega.coordenadas,
+	locations.tecolutla.coordenadas,
+	locations.papantla.coordenadas,
+	locations.teziutlan.coordenadas,
+	locations.xalapa.coordenadas,
+	locations.huatusco.coordenadas,
+	locations.fortin.coordenadas,
+	locations.huautla.coordenadas,
+	locations.otatitlan.coordenadas,
+	locations.nigromante.coordenadas,
+	locations.acayucan.coordenadas,
+	locations.minatitlan.coordenadas,
 ];
 
-var polyline = L.polyline(ruta1, {color: 'red'}).addTo(mymap);
+var polyline = L.polyline(ruta1, {color: 'black'}).addTo(mymap);
 
+var ruta2 = [
+	locations.papantla.coordenadas,
+	locations.vega.coordenadas,
+	locations.xalapa.coordenadas,
+	locations.zempoala.coordenadas,
+];
+
+var polyline = L.polyline(ruta2, {color: 'black'}).addTo(mymap);
+
+var ruta3 = [
+	locations.xalapa.coordenadas,
+	locations.boca.coordenadas,
+	locations.joachin.coordenadas,
+	locations.yanga.coordenadas,
+	locations.fortin.coordenadas,
+];
+
+var polyline = L.polyline(ruta3, {color: 'black'}).addTo(mymap);
+
+var ruta4 = [
+	locations.alvarado.coordenadas,
+	locations.otatitlan.coordenadas,
+	locations.joachin.coordenadas,
+	
+];
+
+var polyline = L.polyline(ruta4, {color: 'black'}).addTo(mymap);
+
+var ruta2 = [
+	locations.coatzacoalcos.coordenadas,
+	locations.minatitlan.coordenadas,
+	locations.acayucan.coordenadas,
+	locations.andres.coordenadas,
+];
+
+var polyline = L.polyline(ruta2, {color: 'black'}).addTo(mymap);
 console.log(mymap.distance(locations.xalapa.coordenadas, locations.zempoala.coordenadas) + ' metros');
