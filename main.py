@@ -21,12 +21,22 @@ grafo = {
     'Y': ['F','J'],
     'Z': ['B','G','X'],
 }
-# inicio = input('Dame la ciudad de origen')
-# destino = input('Dame la ciudad de destino')
-# p = pt.busqueda(map, 'X' , 'V')
-# print(p)
-# h = pt.amplitud(map, 'X', 'V')
-# print(h)
+p = pt.busqueda(map, 'X','V')
+print(p)
+recorrido = {
+ 'A': None,
+ 'Z': 'A',
+ 'T': 'A',
+ 'S': 'A',
+ 'O': 'Z',
+ 'L': 'T',
+ 'F': 'S',
+ 'R': 'S',
+ 'M': 'L',
+ 'B': 'F'
+}
 
-p = pt.busqueda(grafo, 'X', 'Z')
-# print(p)
+# for temp in recorrido:
+#     ciudad = temp
+#     print(ciudad)
+#     print(recorrido[ciudad])
