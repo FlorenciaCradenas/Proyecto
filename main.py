@@ -21,5 +21,7 @@ mapa = {
     'Y': ['F','J'],
     'Z': ['B','G','X'],
 }
-p = pt.busqueda(mapa, 'A','B')
-print(p)
+inicio = input('Ingrese la ciudad de inicio')
+destino = input('Ingrese  la ciudad de destino')
+p = pt.busqueda(mapa, inicio, destino)
+print('El recorrido es', p)

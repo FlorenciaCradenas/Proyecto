@@ -1,4 +1,3 @@
-import queue
 import typing as ty
 
 
@@ -25,3 +24,4 @@ def ruta(recorrido, ciudad) -> list:
         return [ciudad]
     else:
         return ruta(recorrido, recorrido[ciudad]) + [ciudad]
+
