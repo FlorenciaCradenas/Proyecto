@@ -14,4 +14,4 @@ Su estrategia: expación de nodos.
 El uso de busqueda en amplitud son ideales para problemas no tan complejos ya que los problemas de busqueda de complejidad exponencial no se resuelven usando esté método de busqueda.
 pues se busca en todas las posibilidades y esto provoca que tarde mucho tiempo en encontrar una solución, que la solución no sea óptima o en su defecto, que no exista solución.
 
-![Imagen del algoritmo](file:///home/paty/Descargas/algoritmo.png)
+![Imagen del algoritmo](algoritmo.png)
