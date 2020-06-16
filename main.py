@@ -21,22 +21,5 @@ mapa = {
     'Y': ['F','J'],
     'Z': ['B','G','X'],
 }
-p = pt.busqueda(mapa, 'X','V')
+p = pt.busqueda(mapa, 'A','B')
 print(p)
-# recorrido = {
-#  'A': None,
-#  'Z': 'A',
-#  'T': 'A',
-#  'S': 'A',
-#  'O': 'Z',
-#  'L': 'T',
-#  'F': 'S',
-#  'R': 'S',
-#  'M': 'L',
-#  'B': 'F'
-# }
-#
-# for temp in recorrido:
-#     ciudad = temp
-#     print(ciudad)
-#     print(recorrido[ciudad])
