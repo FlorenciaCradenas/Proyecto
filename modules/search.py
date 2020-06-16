@@ -10,19 +10,18 @@ def busqueda(map, inicio, destino) -> ty.List[float]:
     recorrido.setdefault(inicio, None)
     while arbol:
         ciudad = arbol.pop()
-        if inicio == destino:
+        if ciudad == destino:
             return ruta(recorrido, ciudad)
         for key in map[ciudad]:
             if key not in recorrido:
                 arbol.append(key)
                 recorrido.setdefault(key, ciudad)
-                print(recorrido)
+
 
 
 
 def ruta(recorrido, ciudad) -> list:
-    for temp in recorrido:
-        ciudad = temp
-        print(ciudad)
-        print(recorrido[ciudad])
-    return [ciudad[-1]] + ruta(ciudad[:-1])
+    if recorrido[ciudad] == None:
+        return [ciudad]
+    else:
+        return ruta(recorrido, recorrido[ciudad]) + [ciudad]

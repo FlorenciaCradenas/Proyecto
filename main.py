@@ -1,5 +1,5 @@
 import modules.search as pt
-grafo = {
+mapa = {
     'A': ['M', 'N', 'S'],
     'B': ['J','V','X','Z'],
     'C': ['D','M','S'],
@@ -17,25 +17,25 @@ grafo = {
     'T': ['G','P'],
     'U': ['P','X'],
     'V': ['B','O','S'],
-    'X': ['B','G','H','U','Z'],
+    'X': ['U','H','G','Z','B'],
     'Y': ['F','J'],
     'Z': ['B','G','X'],
 }
-p = pt.busqueda(map, 'X','V')
+p = pt.busqueda(mapa, 'X','V')
 print(p)
-recorrido = {
- 'A': None,
- 'Z': 'A',
- 'T': 'A',
- 'S': 'A',
- 'O': 'Z',
- 'L': 'T',
- 'F': 'S',
- 'R': 'S',
- 'M': 'L',
- 'B': 'F'
-}
-
+# recorrido = {
+#  'A': None,
+#  'Z': 'A',
+#  'T': 'A',
+#  'S': 'A',
+#  'O': 'Z',
+#  'L': 'T',
+#  'F': 'S',
+#  'R': 'S',
+#  'M': 'L',
+#  'B': 'F'
+# }
+#
 # for temp in recorrido:
 #     ciudad = temp
 #     print(ciudad)
