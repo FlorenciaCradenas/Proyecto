@@ -1,4 +1,5 @@
 import modules.search as pt
+import time as ti
 mapa = {
     'A': ['M', 'N', 'S'],
     'B': ['J','V','X','Z'],
@@ -23,5 +24,9 @@ mapa = {
 }
 inicio = input('Ingrese la ciudad de inicio')
 destino = input('Ingrese  la ciudad de destino')
+a = ti.time()
 p = pt.busqueda(mapa, inicio, destino)
 print('El recorrido es', p)
+b = ti.time()
+c = b - a
+print('El programa tardo en calcular la ruta en %f'  %c, 'segundos')

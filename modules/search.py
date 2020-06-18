@@ -1,5 +1,5 @@
 import typing as ty
-
+import timeit as ti
 
 arbol = []
 recorrido = {}
