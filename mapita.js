@@ -72,6 +72,7 @@ var locations = {
 	'fortin': {
 		'titulo': 'Fortín de las Flores',
 		'coordenadas': [18.9017, -96.99896],
+		'icon':creaIcono('images/Fortin.png', 18, 31)
 		
 	},
 	'huatusco': {
@@ -82,11 +83,13 @@ var locations = {
 	'joachin': {
 		'titulo': 'Joachín',
 		'coordenadas': [18.6407, -96.23095],
+		'icon':creaIcono('images/Joachin.png', 18, 31)
 		
 	},
 	'minatitlan': {
 		'titulo': 'Minatitlán',
 		'coordenadas': [17.99392, -94.5466],
+		'icon':creaIcono('images/Minatitlan.png', 18, 31)
 		
 	},
 	'nigromante': {
@@ -97,6 +100,8 @@ var locations = {
 	'otatitlan': {
 		'titulo': 'Otatitlán',
 		'coordenadas': [18.18106, -96.03439],
+		'icon':creaIcono('images/Otatitlan.png', 18, 31)
+		
 		
 	},
 	'papantla': {
@@ -117,6 +122,7 @@ var locations = {
 	'teziutlan': {
 		'titulo': 'Teziutlán',
 		'coordenadas': [19.81601, -97.35705],
+		'icon':creaIcono('images/Teziutlan.png', 18, 31)
 		
 	},
 	'andres': {
@@ -127,6 +133,7 @@ var locations = {
 	'yanga': {
 		'titulo': 'Yanga',
 		'coordenadas': [18.82928, -96.80027],
+		'icon':creaIcono('images/Yanga.png', 18, 31)
 	},
 };
 
