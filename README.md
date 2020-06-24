@@ -1,6 +1,8 @@
 # BUSQUEDAS EN AMPLITUD
 
 # Introducción
+
+# Metodología
 Alguna vez en nuestra vida hemos estado frente a la inerroante ¿Qué camino debo elegir para llegar a cierto lugar?.
 Este proyecto trata de resolver dicha interrogante mediante la implementación de **_busquedas en amplitud_**, con el proposito de determinar que ruta se debe seguir para ir de un ponto inicial hasta llear a nuestro destino. Pero ¿qué son las busquedas en amplitud?
 
