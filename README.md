@@ -29,10 +29,14 @@ Nosotras elaboramos el siguiente programa:
 Como podemos notar el codigo se apoya de dos funciones, la funcion _ruta_ y la función _busqueda_ en la cual se expanden los nodos apoyado del siguiente diccionario:
 
 ![Imagen del Diccionario](diccionario.png)
+
 Donde las claves de las ciudades estn determinadas por la siguiente lista:
+
 ![Imagen de la Lista de las ciudades](lista.png)
+
 Entonces la función busqueda agrega en una lista llamada arbol el nodo raiz "inicio" y se agrega tambien en un diccionario llamado recorrido el nodo inicial y el valor None, que quiere decir que dicho nodo no tiene antecesores. Se emplea un ciclo _while_ el cual contiene los demas ciclos, en dicho ciclo se pregunta si la lista arbol no es vacia continua asignando a la variable ciudad lo que se saca de la lista arbol, ademas se pregunta si la ciudad es el destino retornamos a la funcion _ruta_ la cual imprime el camino a seguir, posteriormente en el ciclo _for_ es el encargado de expandir los nodos ya que verifica los vecinos de nuestras ciudades, y las agrega a la lista arbol y a la cola recorrido con su valor antecesor de esta manera se hace un cliclo hasta llegar a nuestro destino.
 Las estructuras de datos implementadas son listas y diccionarios principalmente por el control de los datos que tenemos ya que en un diccionario podemos agregar un dato y su valor, esto es necesario para agregar los vecinos y sus antesesores. 
+
 Cabe destacar que en nuestro programa afecta la forma de acomodar los datos de nuestro diccionario llamado "mapa" ya que los nodos se expanderian de distinta manera. 
 
 
