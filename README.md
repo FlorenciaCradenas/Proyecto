@@ -24,28 +24,28 @@ En este pequeño ejemplo nos dimos cuenta cómo trabaja un algoritmo de búsqued
 
 # Experimentos
 
-![Imagen prueba1](A-H.png)
+![Prueba1](Pruebas/A-H.png)
 
 
-![Imagen prueba2](F-P.png)
-
-
-
-![Imagen prueba3](H-A.png)
+![Prueba2](Pruebas/F-P.png)
 
 
 
-
-![Imagen prueba4](J-M.png)
-
-
-
-![Imagen prueba5](X-B.png)
+![Prueba3](Pruebas/H-A.png)
 
 
 
 
-![Imagen prueba6](X-V.png)
+![Prueba4](Pruebas/J-M.png)
+
+
+
+![Prueba5](Pruebas/X-B.png)
+
+
+
+
+![Prueba6](Pruebas/X-V.png)
 
 
 
