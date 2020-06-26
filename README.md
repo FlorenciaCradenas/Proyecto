@@ -28,7 +28,7 @@ En este pequeño ejemplo nos dimos cuenta cómo trabaja un algoritmo de búsqued
 El lenguaje de programación implementado es **Python**, trabajando con el algoritmo:
 ![Imagen del algoritmo](algoritmo.png)
 
-Nosotras elaboramos el siguiente programa:
+Se elaboró el siguiente programa:
 
 ![Imagen del programa](programa.png)
 
