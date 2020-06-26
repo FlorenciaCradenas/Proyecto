@@ -14,7 +14,7 @@ La búsqueda en amplitud es un recorrido de grafo (usado frecuentemente en árbo
 
 En este caso supongamos que nos encontramos en la ciudad de Xalapa, y queremos llegar a San Andrés Tuxtla, apoyados del siguiente mapa:
 
-Mapa de Veracruz. Da click [aquí](https://FlorenciaCradenas.hithub.io/Proyecto/)
+
 
 
 Lo que hará nuestro programa es determinar el nodo raíz, en este caso es _Xalapa_, seguido de expandir los sucesores del nodo raíz (vecinos de _Xalapa_), los cuales son: _Teziutlán_, _Huatusco_, _Vega de Alatorre_, _Zempoala_ y _Boca del Río_, como ninguna ciudad es el destino volvemos a expandir nuestros nodos, comenzando por los vecinos de _Boca del Río_, sin repetir los nodos ya analizados. Los vecinos de _Boca del Río_ son _Joachín_ y  _Alvarado_, nuevamente ninguno de los anteriores es el destino, al igual que los vecinos de las ciudades de _Teziutlán_, _Huatusco_, _Vega de Alatorre_ y _Zempoala_ , por ende volvemos a expandir los nodos de _Alvarado_,  obteniendo _Otatitlan_ y _San Andrés Tuxtla_. Observemos que hemos encontrado nuestro destino, por lo tanto, la ruta a seguir es: _Xalapa_, _Boca del Río_, _Alvarado_  _San Andrés Tuxtla_.
