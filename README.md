@@ -55,34 +55,55 @@ A continuación se muestran algunas pruebas que se realizaron en el algoritmo ya
 
 ![Prueba1](Pruebas/A-H.png)
 
-Inicio: _Acayucan_. 
+Inicio: _Acayucan_
 
-Destino: _Huatusco_.
+Destino: _Huatusco_
 
-Recorrido: _Acayucan, San Andrés Tuxtla, Alvarado, Otatitlan, Joachín, Yanga, Fortín de las FLores, Huatusco_.
-
-
-
+Recorrido: _Acayucan, San Andrés Tuxtla, Alvarado, Otatitlan, Joachín, Yanga, Fortín de las FLores, Huatusco_
 
 ![Prueba2](Pruebas/F-P.png)
 
+Inicio: _Fortín de las Flores_
 
+Destino: _Papantla_
+
+Recorrido: _Fortín de las Flores, Yanga, Joachín, Boca del Río, Zempoala, Vega de Alatorre, Papantla_
 
 ![Prueba3](Pruebas/H-A.png)
 
+Inicio: _Huatusco_
 
+Destino: _Acayucan_
 
+Recorrido: _Huatusco, Xalapa, Boca del Río, Alvarado, San Andrés Tuxtla, Acayucan_
 
 ![Prueba4](Pruebas/J-M.png)
 
+Inicio: _Joachín_
 
+Destino: _Minatitlán_
+
+Recorrido: _Joachín, Otatitlan, Alvarado, San Andréz Tuxtla, Coatzacoalcos, Minatitlán_
 
 ![Prueba5](Pruebas/X-B.png)
 
+Inicio: _Xalapa_
 
+Destino: _Boca del Río_
 
+Recorrido: _Xalapa, Boca del Río_
 
 ![Prueba6](Pruebas/X-V.png)
+
+Inicio: _Xalapa_
+
+Destino: _Alvarado_
+
+Recorrido: _Xalapa, Boca del Río, Alvarado_
+
+# Conclusión
+
+# Bibliografía
 
 
 
