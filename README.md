@@ -103,7 +103,10 @@ Recorrido: _Xalapa, Boca del Río, Alvarado_
 
 # Conclusión
 
-![Tiempo](TablaTiempo.png)
+A continuación se presenta una tabla comparativa conformada por diferentes tipos de búsqueda:
+
+![Tabla comparativa](Pruebas/Tabla.png) 
+
 
 En conclusión, notemos que el método **_búsqueda en amplitud_** es completo, ya que siempre encontrará el camino a seguir, aunque este no sea el más óptimo. Comparado con los tiempos de las demás búsquedas, este método es uno de los más rápidos en esta situación, ya que no analiza la expansión de nodos más que para encontrar nuestro destino. Este tipo de búsqueda resulta eficaz para búsquedas pequeñas, en dado caso de ser grandes su eficacia podría fallar, ya que demoraría demasiado tiempo.  
 
