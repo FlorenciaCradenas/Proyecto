@@ -55,8 +55,10 @@ A continuación se muestran algunas pruebas que se realizaron en el algoritmo ya
 
 ![Prueba1](Pruebas/A-H.png)
 
-Inicio: _Acayucan_
-Destino: _Huatusco_
+Inicio: _Acayucan_. 
+
+Destino: _Huatusco_.
+
 Recorrido: _Acayucan, San Andrés Tuxtla, Alvarado, Otatitlan, Joachín, Yanga, Fortín de las FLores, Huatusco_.
 
 
