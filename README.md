@@ -103,6 +103,10 @@ Recorrido: _Xalapa, Boca del Río, Alvarado_
 
 # Conclusión
 
+En conclusión, notemos que el método **_búsqueda en amplitud_** es completo, ya que siempre encontrará el camino a seguir, aunque este no sea el más óptimo. Comparado con los tiempos de las demás búsquedas, este método es uno de los más rápidos en esta situación, ya que no analiza la expansión de nodos más que para encontrar nuestro destino. Este tipo de búsqueda resulta eficaz para búsquedas pequeñas, en dado caso de ser grandes su eficacia podría fallar, ya que demoraría demasiado tiempo.  
+
+Cabe destacar que a esta búsqueda no le interesa si el camino elegido es el más largo o el más costoso en comparación con la búsqueda de costo uniforme.
+
 # Bibliografía
 
 
