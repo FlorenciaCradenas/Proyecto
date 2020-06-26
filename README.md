@@ -51,7 +51,15 @@ Cabe destacar que en nuestro programa afecta la forma de acomodar los datos de n
 
 # Experimentos
 
+A continuación se muestran algunas pruebas que se realizaron en el algoritmo ya presentado, con diferentes puntos de inicio y destino.
+
 ![Prueba1](Pruebas/A-H.png)
+
+Inicio: _Acayucan_
+Destino: _Huatusco_
+Recorrido: _Acayucan, San Andrés Tuxtla, Alvarado, Otatitlan, Joachín, Yanga, Fortín de las FLores, Huatusco_.
+
+
 
 
 ![Prueba2](Pruebas/F-P.png)
