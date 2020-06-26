@@ -13,7 +13,7 @@ Este proyecto trata de resolver dicha interrogante mediante la implementación d
 La búsqueda en amplitud es un recorrido de grafo (usado frecuentemente en árboles) en donde se toma el nodo raíz, después sus sucesores, expandiendo todos los nodos a una profundidas en el árbol de búsqueda antes de expandir cualquier nodo del próximo nivel, en este tipo de busqueda la estructura de datos empleada es **Fifo** es decir primero en entrar-primero en salir. 
 
 En este caso supongamos que nos encontramos en la ciudad de Xalapa, y queremos llegar a San Andrés Tuxtla, apoyados del siguiente mapa:
-
+Da click [aquí](https://florenciacradenas.github.io/Proyecto/)
 
 
 
