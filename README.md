@@ -111,7 +111,9 @@ Cabe destacar que a esta búsqueda no le interesa si el camino elegido es el má
 
 # Bibliografía
 
+TIPOS DE BUSQUEDAS - INTELIGENCIA ARTIFICIAL. (s. f.). Inteligencia Artificial. https://sites.google.com/a/uniguajira.edu.co/inteligencia-artificial/tipos-de-busquedas
 
+Russell, S. (2020). Inteligencia Artificial: un Enfoque Moderno (2nd ed.). Pearson Education.
 
 
 
